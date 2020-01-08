@@ -12,11 +12,13 @@ class Customer
 	
 	}
 	//storing the transactions in a separate array list of type double
+	
 	public void addTransaction(double amount)
 	{
 		this.transactions.add(amount);
 	}
 	//storing the customer name in a separate array list of type string
+	
 	public void addName(String c_name)
 	{
 		this.name.add(c_name);
