@@ -21,7 +21,7 @@ import java.util.*;
 }
 
 
-public class Array_Example_UserDefined 
+public class ArrayList_Example_UserDefined 
 {
 
 	public static void main(String[] args) 
