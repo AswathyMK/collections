@@ -1,5 +1,5 @@
 import java.util.*;
-public class HashSet_Example2 
+public class HashSet_Example_2 
 {
 
 	public static void main(String[] args)
@@ -13,10 +13,10 @@ public class HashSet_Example2
 			int s=sc.nextInt();
 			alist.add(s);
 		}
-        HashSet<Integer> set=new HashSet<Integer>();//creating HashSet
-        //Adding elements of ArrayList to HashSet using addAll() method
-        set.addAll(alist);
-        System.out.println(set);
-    }
+		HashSet<Integer> set=new HashSet<Integer>();//creating HashSet
+        	//Adding elements of ArrayList to HashSet using addAll() method
+        	set.addAll(alist);
+        	System.out.println(set);
+    	}
 
 }
