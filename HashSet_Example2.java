@@ -18,5 +18,4 @@ public class HashSet_Example_2
         	set.addAll(alist);
         	System.out.println(set);
     	}
-
 }
