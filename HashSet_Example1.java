@@ -36,6 +36,6 @@ public class HashSet_Example_1
 		HashSet<Integer>Sym_dif=new HashSet<Integer>(set1);//creating set for Symmetric difference by passing first set as object
 		Sym_dif.removeAll(set2);//Symmetric difference is done by using removeAll() method which remove common elements from set1 
 		System.out.println("Symmetric difference : "+Sym_dif);
-}
+	}
 
 }
