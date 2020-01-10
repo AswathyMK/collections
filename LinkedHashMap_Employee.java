@@ -1,5 +1,5 @@
 
-public class LinkedHashMap_Employee 
+public class LinkedHashMap_Employee implements Comparable<LinkedHashMap_Employee>
 {
 	private String name;
 	private int age;
@@ -23,4 +23,10 @@ public class LinkedHashMap_Employee
 	{
 		this.age=age;
 	}
+	@Override
+	public int compareTo(LinkedHashMap_Employee o) {
+		
+		return 1;
+	}
+	
 }
