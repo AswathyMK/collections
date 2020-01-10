@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.TreeSet;
-public class Treeset_Example_Main 
+public class Treeset_Example1_Main 
 {
 
 	public static void main(String[] args) 
