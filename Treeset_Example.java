@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.TreeSet;
-public class Treeset_Example 
+public class Treeset_Example_Main 
 {
 
 	public static void main(String[] args) 
@@ -10,14 +10,14 @@ public class Treeset_Example
 		int age;
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
-		TreeSet<Employee> treeset=new TreeSet<Employee>();//creating treeset of class type Employee
-		Employee[] emp=new Employee[n];//creating array of class object
+		TreeSet<Treeset_Example1_Employee> treeset=new TreeSet<Treeset_Example1_Employee>();//creating treeset of class type Employee
+		Treeset_Example1_Employee[] emp=new Treeset_Example1_Employee[n];//creating array of class object
 		//adding elements to treeset
 		for(i=0;i<n;i++)
 		{
 			name=sc.next();
 			age=sc.nextInt();
-			emp[i]=new Employee();
+			emp[i]=new Treeset_Example1_Employee();
 			emp[i].setAge(age);
 			emp[i].setName(name);
 			treeset.add(emp[i]);
@@ -25,7 +25,7 @@ public class Treeset_Example
 			
 		}
 		//returning elements from treeset
-		for(Employee e:treeset)
+		for(Treeset_Example1_Employee e:treeset)
 		{
 			System.out.println(e.getName()+" "+e.getAge());
 		}
