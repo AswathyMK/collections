@@ -1,5 +1,5 @@
 
-public class HashMap_Employee 
+public class HashMap_Employee implements Comparable<HashMap_Employee>
 {
 	private String name;
 	private int age;
@@ -23,4 +23,10 @@ public class HashMap_Employee
 	{
 		this.age=age;
 	}
+	@Override
+	public int compareTo(HashMap_Employee o) {
+		
+		return 1;
+	}
+	
 }
