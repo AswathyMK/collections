@@ -31,7 +31,6 @@ public class Treeset_Example1_Main
 		}
 		sc.close();
 		
-		
 	}
 
 }
