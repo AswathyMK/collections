@@ -29,8 +29,7 @@ public class HashMap_Employee_Main
 			System.out.println(e.getKey()+" "+obj.getName()+" "+obj.getAge());
 		}
 		sc.close();
-		
-		
+			
 	}
 
 }
